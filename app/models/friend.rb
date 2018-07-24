@@ -1,8 +1,4 @@
 class Friend < ApplicationRecord
-  def self.foo
-    return "bar"
-  end
-
   def self.make_array
     array = []
     @friends = self.all
