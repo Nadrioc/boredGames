@@ -1,2 +1,14 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<h1>Welcome to boredGames!</h1>
+
+<p>Since I'm testing things, this is just gonna be a fun friend selector for now :P</p>
+
+<p>Select what letter you want your friend to be</p>
+
+<%= form_tag(friends_path, method: :get) do %>
+  <%= text_field_tag :keyword %>
+  <%= number_field_tag :age %>
+  <%= submit_tag 'Search' %>
+<% end %>
+
+<h3> <%= @friends_array.shuffle.first.name %> </h3>
+
