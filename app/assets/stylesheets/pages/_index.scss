@@ -1,2 +1,36 @@
 // Import page-specific CSS files here.
 @import "home";
+
+.games-container-card {
+  display: flex;
+  background: #AFBFCA;
+  border-radius: 45px;
+  margin-bottom: 10px;
+}
+
+.games-image-card{
+  padding: 10px;
+}
+
+.games-image-card img{
+  border-radius: 45px;
+}
+
+.index-container{
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.games-title{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  color: white;
+}
+
+.card-description{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
