@@ -1,4 +1,41 @@
-flexy{
-  display: flex;
-  float: left;
+body{
+  font-family: 'Comfortaa', cursive !important;
 }
+
+.new-font{
+  font-family: 'Comfortaa', cursive !important;
+}
+
+.flexy{
+  display: flex;
+}
+
+.banner{
+  background-size: cover !important;
+  background-repeat: repeat-y;
+  height: 100vh;
+  color: white;
+}
+
+.title-content {
+  display: flex;
+  justify-content: center;
+  padding: 80px 0;
+}
+
+.banner-content{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.form-container{
+  width: 35%;
+}
+
+.margin-down{
+  margin-bottom: 3px;
+  border-radius: 12px;
+}
+
