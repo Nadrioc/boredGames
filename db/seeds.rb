@@ -126,6 +126,11 @@ Game.create(name: "Specter Ops", player_count: "2 3 4 5", duration: "Average Lon
 
 Game.create(name: "Sequence", player_count: "2 4", duration: "Short", genre: "Luck Classic Co-op", card_or_board: "Board", image: "https://cf.geekdo-images.com/opengraph/img/jis6OQwhxlJvSMmBC3M_WeC7FAs=/fit-in/1200x630/pic212893.jpg")
 
+Game.create(name: "Let's Go Fishin!", player_count: "2", duration: "Quick", genre: "Dexterity", card_or_board: "Board", image: "https://i.ytimg.com/vi/8S_R8uGvJWg/maxresdefault.jpg")
+
+Game.create(name: "Battlelore", player_count: "2", duration: "Average", genre: "Strategy Luck", card_or_board: "Board", image: "http://theboardgameshop.co.uk/wp-content/uploads/2014/04/battlelore.jpg")
+
+
 puts "All Done :)"
 
 
