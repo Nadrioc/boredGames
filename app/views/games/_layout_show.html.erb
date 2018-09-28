@@ -5,7 +5,8 @@
       <h3 class="new-font"><%= @game.name %></h3>
     </div>
     <div class="back-container">
-      <%= link_to 'Go Again!', root_path, class: 'btn btn-primary back' %>
+      <%= link_to 'Go Back', root_path, class: 'btn btn-primary back' %>
+      <%= link_to "Refresh", {"utf8"=>"✓", "player_count"=>"#{@player_requirements["player_count"]}", "duration"=>"#{@player_requirements["duration"]}", "box_size"=>"", "genre"=>"#{@player_requirements["genre"]}", "card_or_board"=>"#{@player_requirements["card_or_board"]}", "random"=>"Find a random game!", "controller"=>"games", "action"=>"index"}, class: "btn btn-primary back"%>
     </div>
     <div class="game-container">
       <div class="image-container">
@@ -13,7 +14,7 @@
       </div>
       <div class="game-info-container">
         <h3>Game Info</h3>
-        <p>Players: <%= @game.player_count[0] %>-<%= @game.player_count[-1] %></p>
+        <p>Players: <%= @game.player_count[0] %>-<%= @game.player_count.split[-1] %></p>
         <p>Duration: <%= @game.duration %></p>
         <p>Genres: <%= @game.genre %></p>
         <p>This is a <%= @game.card_or_board %> game</p>

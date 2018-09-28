@@ -104,7 +104,7 @@ Game.create(name: "Power Grid", player_count: "2 3 4 5 6", duration: "Long", gen
 
 Game.create(name: "Tales of the Arabian Nights", player_count: "1 2 3 4 5 6", duration: "Long", genre: "Luck Party", card_or_board: "Board", image: "https://images-na.ssl-images-amazon.com/images/I/91RJU8wKZhL.jpg")
 
-Game.create(name: "Mysterium", player_count: "2 3 4 5 6 7", duration: "Average", genre: "Puzzle Party Co-op", card_or_board: "Board", image: "http://cdn.shopify.com/s/files/1/0405/0381/products/3765_55edb1bf48d0a8.12679880_Mysterium_20board_20game_large_fce6b751-ed69-4014-ab77-48739da132aa_grande.jpg?v=1530696805")
+Game.create(name: "Mysterium", player_count: "2 3 4 5 6 7", duration: "Average", genre: "Puzzle Party Co-op", card_or_board: "Board", image: "https://cf.geekdo-images.com/imagepage/img/t6kc_udfUMKTr3aFHj3XA454vFg=/fit-in/900x600/filters:no_upscale()/pic2601683.jpg")
 
 Game.create(name: "Brewin' USA", player_count: "2 3 4 5", duration: "Average", genre: "Collection Resource", card_or_board: "Board", image: "https://cf.geekdo-images.com/opengraph/img/gOzkjSeNHjoB-oo0If5dyvLgDFc=/fit-in/1200x630/pic2231191.png")
 
