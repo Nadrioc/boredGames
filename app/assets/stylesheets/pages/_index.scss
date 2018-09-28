@@ -8,6 +8,22 @@
   margin-bottom: 10px;
 }
 
+// .row{
+//   min-width: 530px;
+// }
+
+.body-container-index{
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  background: #3D5F77;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-bottom: 600px;
+  background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('https://images.unsplash.com/photo-1518687513698-5ef14465356a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=eecc658aab06ed87a93f02e3e703cf62&auto=format&fit=crop&w=2056&q=80');
+  min-width: 500px;
+}
+
 .games-image-card{
   padding: 10px;
 }
